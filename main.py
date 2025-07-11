@@ -29,7 +29,7 @@ def keep_alive():
 def ping_loop():
     while True:
         try:
-            requests.get("https://ping-nres.onrender.com")
+            requests.get("https://ping-nres.onrender.com/")
         except:
             pass
         time.sleep(60)
